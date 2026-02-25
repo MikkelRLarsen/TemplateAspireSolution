@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Shared/Shared.csproj" />
+  </Folder>
+  <Folder Name="/src/Template/">
+    <Project Path="src/Template/Template.Api/Template.Api.csproj" />
+    <Project Path="src/Template/Template.Domain/Template.Domain.csproj" />
+    <Project Path="src/Template/Template.Facade/Template.Facade.csproj" />
+    <Project Path="src/Template/Template.Infrastructure/Template.Infrastructure.csproj" />
+    <Project Path="src/Template/Template.UnitTest/Template.UnitTest.csproj" Id="7e5ccc13-6015-4c22-9d4a-d7b3d9f0689d" />
+    <Project Path="src/Template/Template.UseCase/Template.UseCase.csproj" />
+  </Folder>
+  <Project Path="Aspire.AppHost/Aspire.AppHost.csproj" />
+  <Project Path="Aspire.Integrationtest/Aspire.Integrationtest.csproj" />
+</Solution>

@@ -18,7 +18,8 @@ $projects = @(
 	"Infrastructure",
 	"Facade",
 	"UnitTest",
-	"UseCase"
+	"UseCase",
+	"InversionOfControl"
 	)
 
 foreach ($project in $projects) {

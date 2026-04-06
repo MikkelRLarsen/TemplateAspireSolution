@@ -9,11 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CommunityToolkit.Aspire.Hosting.Dapr" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\src\Template\Template.Api\Template.Api.csproj" />
+    <PackageReference Include="CommunityToolkit.Aspire.Hosting.Dapr" Version="13.0.0" />
+	<PackageReference Include="Aspire.Hosting" Version="13.1.1" />
+	<PackageReference Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="13.2.0" />
   </ItemGroup>
 
 </Project>

@@ -11,6 +11,12 @@ namespace Aspire.Integrationtest
     {
     }
 
+    public static class AspireAppCollectionConsts
+    {
+        public const string Name = "Category";
+        public const string Value = "Integration";
+    }
+
 
     public class AspireAppFixture : IAsyncLifetime
     {
@@ -60,8 +66,8 @@ namespace Aspire.Integrationtest
         private async Task CreateHttpNamedClients()
         {
             // This is an example. Use Services destribed in AppHost
-            TemplateApi = _app.CreateHttpClient("template-api");
-            await _app.ResourceNotifications.WaitForResourceHealthyAsync("template-api", CancellationToken);
+            //TemplateApi = _app.CreateHttpClient("template-api");
+            //await _app.ResourceNotifications.WaitForResourceHealthyAsync("template-api", CancellationToken);
         }
     }
 }

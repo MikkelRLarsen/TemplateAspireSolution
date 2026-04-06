@@ -9,7 +9,7 @@ namespace Aspire.AppHost
         {
             var builder = DistributedApplication.CreateBuilder(args);
 
-            builder.AddProject<Projects.Template_Api>("template-api");
+            //builder.AddProject<Projects.Template_Api>("template-api");
 
             builder.Build().Run();
 
